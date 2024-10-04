@@ -1,9 +1,7 @@
 package com.example.iterable;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
+import java.util.*;
+import java.util.function.*;
 
 public class Bag<T> implements Container<T> {
     private ArrayList<T> items;
