@@ -10,7 +10,6 @@ public class Bag<T> implements Container<T> {
         this.items = new ArrayList<>();
     }
 
-
     @Override
     public Iterator<T> iterator() {
         return items.iterator();
