@@ -17,12 +17,12 @@ public class Bag<T> implements Container<T> {
 
     @Override
     public void forEach(Consumer<? super T> action) {
-        Container.super.forEach(action);
+        items.forEach(action);
     }
 
     @Override
     public Spliterator<T> spliterator() {
-        return Container.super.spliterator();
+        return items.spliterator();
     }
 
     @Override
